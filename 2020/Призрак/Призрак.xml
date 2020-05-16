@@ -8,7 +8,7 @@
   <creator type="composer">Роберт Куклин</creator>
   <rights>Авторское право © </rights>
   <encoding>
-   <encoding-date>2020-03-15</encoding-date>
+   <encoding-date>2020-05-07</encoding-date>
    <encoder>alex</encoder>
    <software>Sibelius 19.5.0</software>
    <software>Direct export, not from Dolet</software>
@@ -1060,6 +1060,11 @@
     <type>eighth</type>
     <stem>down</stem>
     <staff>1</staff>
+    <notations>
+     <articulations>
+      <staccato />
+     </articulations>
+    </notations>
    </note>
    <note default-x="112">
     <rest />
@@ -1080,6 +1085,11 @@
     <type>eighth</type>
     <stem>up</stem>
     <staff>1</staff>
+    <notations>
+     <articulations>
+      <staccato />
+     </articulations>
+    </notations>
    </note>
    <note default-x="163">
     <rest />
@@ -1103,6 +1113,11 @@
     <type>eighth</type>
     <stem>up</stem>
     <staff>2</staff>
+    <notations>
+     <articulations>
+      <staccato />
+     </articulations>
+    </notations>
    </note>
    <note default-x="112">
     <rest />
@@ -1123,6 +1138,11 @@
     <type>eighth</type>
     <stem>up</stem>
     <staff>2</staff>
+    <notations>
+     <articulations>
+      <staccato />
+     </articulations>
+    </notations>
    </note>
    <note default-x="163">
     <rest />
@@ -7194,7 +7214,7 @@
    <note color="#000000" default-x="91">
     <chord />
     <pitch>
-     <step>C</step>
+     <step>D</step>
      <octave>3</octave>
     </pitch>
     <duration>128</duration>
