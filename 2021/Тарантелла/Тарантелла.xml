@@ -7,7 +7,7 @@
  <identification>
   <creator type="composer">Роберт Куклин</creator>
   <encoding>
-   <encoding-date>2021-02-05</encoding-date>
+   <encoding-date>2021-02-27</encoding-date>
    <encoder>alex</encoder>
    <software>Sibelius 19.5.0</software>
    <software>Direct export, not from Dolet</software>
@@ -114,7 +114,7 @@
      <top-system-distance>218</top-system-distance>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>56</staff-distance>
+     <staff-distance>73</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -141,8 +141,8 @@
    </attributes>
    <direction>
     <direction-type>
-     <dynamics default-x="85" default-y="-70" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
-      <f />
+     <dynamics default-x="85" default-y="-78" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
+      <mp />
      </dynamics>
     </direction-type>
     <voice>1</voice>
@@ -174,7 +174,17 @@
     <staff>1</staff>
    </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <wedge default-x="6" default-y="-71" color="#000000" type="crescendo" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <backup>
+    <duration>384</duration>
    </backup>
    <note color="#000000" default-x="91" default-y="-45">
     <pitch>
@@ -356,6 +366,13 @@
      </articulations>
     </notations>
    </note>
+   <direction>
+    <direction-type>
+     <wedge default-x="2" default-y="-71" color="#000000" type="stop" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <note color="#000000" default-x="54" default-y="-50">
     <pitch>
      <step>C</step>
@@ -410,7 +427,17 @@
     </notations>
    </note>
    <backup>
-    <duration>768</duration>
+    <duration>128</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <wedge default-x="-4" default-y="42" color="#000000" type="diminuendo" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <backup>
+    <duration>640</duration>
    </backup>
    <note color="#000000" default-x="15" default-y="-45">
     <pitch>
@@ -536,7 +563,27 @@
     <beam number="1">end</beam>
    </note>
    <backup>
-    <duration>768</duration>
+    <duration>512</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <wedge default-x="4" default-y="42" color="#000000" type="stop" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <forward>
+    <duration>128</duration>
+   </forward>
+   <direction>
+    <direction-type>
+     <wedge default-y="44" color="#000000" type="crescendo" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <backup>
+    <duration>384</duration>
    </backup>
    <note color="#000000" default-x="15" default-y="-25">
     <pitch>
@@ -627,6 +674,13 @@
      </articulations>
     </notations>
    </note>
+   <direction>
+    <direction-type>
+     <wedge default-y="-68" color="#000000" type="diminuendo" number="2" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <note color="#000000" default-x="82" default-y="10">
     <pitch>
      <step>A</step>
@@ -662,7 +716,17 @@
     </notations>
    </note>
    <backup>
-    <duration>768</duration>
+    <duration>512</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <wedge default-x="8" default-y="44" color="#000000" type="stop" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <backup>
+    <duration>256</duration>
    </backup>
    <note color="#000000" default-x="15" default-y="-45">
     <pitch>
@@ -720,6 +784,13 @@
   <!--============== Part: P1, Measure: 6 ==============-->
   <measure number="6" width="168">
    <attributes />
+   <direction>
+    <direction-type>
+     <wedge default-x="10" default-y="-68" color="#000000" type="stop" number="2" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <note color="#000000" default-x="15">
     <pitch>
      <step>F</step>
@@ -788,7 +859,28 @@
     <beam number="1">end</beam>
    </note>
    <backup>
-    <duration>768</duration>
+    <duration>384</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <wedge default-x="1" default-y="45" color="#000000" type="crescendo" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <forward>
+    <duration>256</duration>
+   </forward>
+   <direction>
+    <direction-type>
+     <wedge default-x="-10" default-y="45" color="#000000" type="stop" />
+    </direction-type>
+    <offset sound="no">127</offset>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <backup>
+    <duration>640</duration>
    </backup>
    <note color="#000000" default-x="15" default-y="-35">
     <pitch>
@@ -851,7 +943,7 @@
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>110</system-distance>
+     <system-distance>106</system-distance>
     </system-layout>
     <staff-layout number="2">
      <staff-distance>85</staff-distance>
@@ -861,6 +953,15 @@
     <staff-details number="1" print-object="yes" />
     <staff-details number="2" print-object="yes" />
    </attributes>
+   <direction>
+    <direction-type>
+     <dynamics default-x="73" default-y="-80" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
+      <mf />
+     </dynamics>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <note color="#000000" default-x="73" default-y="-35">
     <pitch>
      <step>F</step>
@@ -1056,6 +1157,27 @@
    <backup>
     <duration>768</duration>
    </backup>
+   <direction>
+    <direction-type>
+     <wedge default-x="2" default-y="41" color="#000000" type="diminuendo" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <forward>
+    <duration>640</duration>
+   </forward>
+   <direction>
+    <direction-type>
+     <wedge default-x="-13" default-y="41" color="#000000" type="stop" />
+    </direction-type>
+    <offset sound="no">127</offset>
+    <voice>1</voice>
+    <staff>2</staff>
+   </direction>
+   <backup>
+    <duration>640</duration>
+   </backup>
    <note color="#000000" default-x="15" default-y="-45">
     <pitch>
      <step>F</step>
@@ -1181,6 +1303,15 @@
    <backup>
     <duration>768</duration>
    </backup>
+   <direction>
+    <direction-type>
+     <dynamics default-x="12" default-y="36" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
+      <mp />
+     </dynamics>
+    </direction-type>
+    <voice>2</voice>
+    <staff>2</staff>
+   </direction>
    <note color="#000000" default-x="15" default-y="-50">
     <pitch>
      <step>E</step>
@@ -1469,7 +1600,7 @@
    </backup>
    <direction>
     <direction-type>
-     <wedge default-y="46" color="#000000" type="crescendo" />
+     <wedge default-y="48" color="#000000" type="crescendo" />
     </direction-type>
     <voice>1</voice>
     <staff>2</staff>
@@ -1569,6 +1700,13 @@
      </articulations>
     </notations>
    </note>
+   <direction>
+    <direction-type>
+     <wedge default-x="-2" default-y="-74" color="#000000" type="diminuendo" number="2" />
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <note color="#000000" default-x="68" default-y="-55">
     <pitch>
      <step>B</step>
@@ -1603,6 +1741,14 @@
      </articulations>
     </notations>
    </note>
+   <direction>
+    <direction-type>
+     <wedge default-x="-6" default-y="-74" color="#000000" type="stop" number="2" />
+    </direction-type>
+    <offset sound="no">127</offset>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <note color="#000000" default-x="138" default-y="5">
     <pitch>
      <step>G</step>
@@ -1623,7 +1769,7 @@
    </backup>
    <direction>
     <direction-type>
-     <wedge default-x="8" default-y="46" color="#000000" type="stop" />
+     <wedge default-x="8" default-y="48" color="#000000" type="stop" />
     </direction-type>
     <voice>1</voice>
     <staff>2</staff>
@@ -1713,7 +1859,7 @@
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>110</system-distance>
+     <system-distance>106</system-distance>
     </system-layout>
     <staff-layout number="2">
      <staff-distance>86</staff-distance>
@@ -1896,15 +2042,6 @@
      <line>2</line>
     </clef>
    </attributes>
-   <direction>
-    <direction-type>
-     <dynamics default-x="95" default-y="-90" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
-      <mf />
-     </dynamics>
-    </direction-type>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
    <note color="#000000" default-x="101" default-y="-44">
     <pitch>
      <step>C</step>
@@ -2004,6 +2141,15 @@
     <type>eighth</type>
     <staff>2</staff>
    </note>
+   <direction>
+    <direction-type>
+     <dynamics default-x="96" default-y="31" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
+      <mf />
+     </dynamics>
+    </direction-type>
+    <voice>2</voice>
+    <staff>2</staff>
+   </direction>
    <note color="#000000" default-x="101" default-y="15">
     <pitch>
      <step>C</step>
@@ -2058,7 +2204,7 @@
    <attributes />
    <direction>
     <direction-type>
-     <wedge default-x="6" default-y="-85" color="#000000" type="crescendo" />
+     <wedge default-x="6" default-y="-91" color="#000000" type="crescendo" />
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -2117,7 +2263,7 @@
    </note>
    <direction>
     <direction-type>
-     <wedge default-x="-7" default-y="-85" color="#000000" type="stop" />
+     <wedge default-x="-7" default-y="-91" color="#000000" type="stop" />
     </direction-type>
     <offset sound="no">127</offset>
     <voice>1</voice>
@@ -2695,10 +2841,10 @@
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>110</system-distance>
+     <system-distance>106</system-distance>
     </system-layout>
     <staff-layout number="2">
-     <staff-distance>93</staff-distance>
+     <staff-distance>92</staff-distance>
     </staff-layout>
    </print>
    <attributes>
@@ -2902,6 +3048,15 @@
    </attributes>
    <direction>
     <direction-type>
+     <dynamics default-x="128" default-y="-97" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
+      <f />
+     </dynamics>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
      <octave-shift default-x="-5" default-y="40" font-style="normal" font-weight="normal" color="#000000" type="down" size="8" number="1" />
     </direction-type>
     <voice>1</voice>
@@ -2990,15 +3145,6 @@
     <type>eighth</type>
     <staff>2</staff>
    </note>
-   <direction>
-    <direction-type>
-     <dynamics default-x="111" default-y="32" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
-      <mf />
-     </dynamics>
-    </direction-type>
-    <voice>2</voice>
-    <staff>2</staff>
-   </direction>
    <note color="#000000" default-x="117" default-y="17">
     <pitch>
      <step>F</step>
@@ -3076,15 +3222,6 @@
     <type>eighth</type>
     <staff>1</staff>
    </note>
-   <direction>
-    <direction-type>
-     <dynamics default-x="81" default-y="-97" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
-      <f />
-     </dynamics>
-    </direction-type>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
    <note color="#000000" default-x="87" default-y="-44">
     <pitch>
      <step>C</step>
@@ -3265,14 +3402,14 @@
    </note>
    <direction>
     <direction-type>
-     <words default-x="82" default-y="-102" justify="left" valign="middle" font-family="Times New Roman" font-style="italic" font-size="11.9365" font-weight="normal">sub. </words>
+     <words default-x="82" default-y="-93" justify="left" valign="middle" font-family="Times New Roman" font-style="italic" font-size="11.9365" font-weight="normal">sub. </words>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
    </direction>
    <direction>
     <direction-type>
-     <dynamics default-y="-102" relative-x="45" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
+     <dynamics default-y="-93" relative-x="45" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="11.9365" font-weight="normal">
       <p />
      </dynamics>
     </direction-type>
@@ -3445,7 +3582,7 @@
    </note>
    <direction>
     <direction-type>
-     <words default-x="98" default-y="-101" justify="left" valign="middle" font-family="Times New Roman" font-style="italic" font-size="11.9365" font-weight="normal">poco</words>
+     <words default-x="98" default-y="-92" justify="left" valign="middle" font-family="Times New Roman" font-style="italic" font-size="11.9365" font-weight="normal">poco</words>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -3580,7 +3717,7 @@
       <left-margin>22</left-margin>
       <right-margin>0</right-margin>
      </system-margins>
-     <system-distance>110</system-distance>
+     <system-distance>106</system-distance>
     </system-layout>
     <staff-layout number="2">
      <staff-distance>99</staff-distance>
