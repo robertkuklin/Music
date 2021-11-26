@@ -8,7 +8,7 @@
  <identification>
   <creator type="composer">Роберт Куклин</creator>
   <encoding>
-   <encoding-date>2021-10-31</encoding-date>
+   <encoding-date>2021-11-26</encoding-date>
    <encoder>alex</encoder>
    <software>Sibelius 19.5.0</software>
    <software>Direct export, not from Dolet</software>
@@ -5162,61 +5162,61 @@
   <!--============== Part: P1, Measure: 27 ==============-->
   <measure number="27" width="215">
    <attributes />
-   <note color="#000000" default-x="14" default-y="-15">
+   <note color="#000000" default-x="14" default-y="-49">
     <pitch>
      <step>D</step>
      <alter>-1</alter>
-     <octave>5</octave>
+     <octave>6</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P1-I1" />
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
     <beam number="1">begin</beam>
     <notations>
-     <slur color="#000000" type="start" orientation="under" />
+     <slur color="#000000" type="start" orientation="over" />
     </notations>
    </note>
-   <note color="#000000" default-x="55" default-y="-15">
+   <note color="#000000" default-x="55" default-y="-49">
     <pitch>
      <step>B</step>
      <alter>-1</alter>
-     <octave>4</octave>
+     <octave>5</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P1-I1" />
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
     <beam number="1">end</beam>
    </note>
-   <note color="#000000" default-x="97" default-y="-5">
+   <note color="#000000" default-x="97" default-y="-39">
     <pitch>
      <step>F</step>
-     <octave>5</octave>
+     <octave>6</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P1-I1" />
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
     <beam number="1">begin</beam>
    </note>
-   <note color="#000000" default-x="138" default-y="-5">
+   <note color="#000000" default-x="138" default-y="-39">
     <pitch>
      <step>D</step>
      <alter>-1</alter>
-     <octave>5</octave>
+     <octave>6</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P1-I1" />
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
     <beam number="1">end</beam>
    </note>
@@ -5362,12 +5362,12 @@
     <staff-details number="1" print-object="yes" />
     <staff-details number="2" print-object="yes" />
    </attributes>
-   <note color="#000000" default-x="100" default-y="-24">
+   <note color="#000000" default-x="100" default-y="8">
     <grace slash="yes" />
     <pitch>
      <step>D</step>
      <alter>-1</alter>
-     <octave>5</octave>
+     <octave>6</octave>
     </pitch>
     <instrument id="P1-I1" />
     <voice>1</voice>
@@ -5375,47 +5375,47 @@
     <stem>up</stem>
     <staff>1</staff>
    </note>
-   <note color="#000000" default-x="118" default-y="-15">
+   <note color="#000000" default-x="118" default-y="-49">
     <pitch>
      <step>D</step>
      <alter>-1</alter>
-     <octave>5</octave>
+     <octave>6</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P1-I1" />
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
     <beam number="1">begin</beam>
    </note>
-   <note color="#000000" default-x="159" default-y="-15">
+   <note color="#000000" default-x="159" default-y="-49">
     <pitch>
      <step>C</step>
-     <octave>5</octave>
+     <octave>6</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P1-I1" />
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
     <beam number="1">end</beam>
    </note>
-   <note color="#000000" default-x="200" default-y="10">
+   <note color="#000000" default-x="200" default-y="-25">
     <pitch>
      <step>A</step>
      <alter>-1</alter>
-     <octave>5</octave>
+     <octave>6</octave>
     </pitch>
     <duration>256</duration>
     <instrument id="P1-I1" />
     <voice>1</voice>
     <type>quarter</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <staff>1</staff>
     <notations>
-     <slur color="#000000" type="stop" orientation="under" />
+     <slur color="#000000" type="stop" orientation="over" />
     </notations>
    </note>
    <backup>
